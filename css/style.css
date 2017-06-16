@@ -91,6 +91,30 @@ img {
   padding: 60px;
 }
 
+.col-md-6 img, .col-md-4 img {
+  width: 100%;
+  margin: 15px;
+  padding: 0px;
+}
+
+
+/* About */
+
+background-color: white;
+
+/* Bikes */
+
+#Bikes {
+  text-align: center;
+}
+
+/*#Bikes p {
+  text-align: center;
+}*/
+/* Vision */
+
+
+
 /* Gallery */
 .gallery img {
   width: 100%;
@@ -121,5 +145,32 @@ img {
 }
 
 #Nav li a:hover {
+    color: #018D80;
+}
+
+/* Footer Specific */
+.footer {
+  color: white;
+  background-color: #1c1c17;
+  line-height: 1.7;
+  position: relative;
+  z-index: 2;
+}
+
+#Footer li {
+    float: left;
+    list-style: none;
+}
+
+#Footer li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#Footer li a:hover {
     color: #018D80;
 }

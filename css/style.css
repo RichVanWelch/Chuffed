@@ -115,11 +115,15 @@ img {
   padding: 0px;
 }
 
+/*.col-md-12 {
+  padding: 60px;
+}*/
 
 /* About */
 
   #About {
     background-color: #ffc;
+    padding: 60px;
   }
   #About p {
     color: #1c1c17;
@@ -129,22 +133,35 @@ img {
 
   #Bikes {
     text-align: center;
+    padding: 60px;
   }
-  #Bikes p, h2 {
-    color: #1c1c17;
+
+  #Bikes p {
+    color: #ffc;
   }
+
+  #Bikes h2 {
+    color: #ffc;
+  }
+
+
 
 /* Vision */
 
   #Vision {
     text-align: center;
     background-color: #ffc;
+    padding: 60px;
   }
   #Vision p h2 {
     color: #1c1c17;
   }
 
 /* Gallery */
+
+.gallery {
+  padding: 60px;
+}
 
 .gallery img {
   width: 100%;
@@ -180,6 +197,11 @@ img {
 }
 
 /* Footer Specific */
+
+footer {
+  padding: 0px;
+}
+
 .footer {
   /*color: #ffc;*/
   background-color: #ffc;
